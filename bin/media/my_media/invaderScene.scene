@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- exporter: blender2ogre 0.7.0 -->
+<!-- export_time: Sat, 02 Feb 2019 22:37:46 +0000 -->
+<!-- previous_export_time: Sat, 02 Feb 2019 22:36:56 +0000 -->
+<scene author="mattk" formatVersion="1.1" >
+  <nodes >
+    <node name="leftwall" >
+      <position x="-12.127161" y="18.140776" z="0.920524" />
+      <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="0.000000" />
+      <scale x="0.153318" y="33.136120" z="1.000000" />
+      <entity meshFile="leftwall.mesh" name="leftwall" >
+        <userData >
+          <property data="1.0" name="mass" type="float" />
+          <property data="1.0" name="mass_radius" type="float" />
+          <property data="STATIC" name="physics_type" type="str" />
+          <property data="False" name="actor" type="bool" />
+          <property data="False" name="ghost" type="bool" />
+          <property data="0.0" name="velocity_min" type="float" />
+          <property data="0.0" name="velocity_max" type="float" />
+          <property data="False" name="lock_trans_x" type="bool" />
+          <property data="False" name="lock_trans_y" type="bool" />
+          <property data="False" name="lock_trans_z" type="bool" />
+          <property data="False" name="lock_rot_x" type="bool" />
+          <property data="False" name="lock_rot_y" type="bool" />
+          <property data="False" name="lock_rot_z" type="bool" />
+          <property data="False" name="anisotropic_friction" type="bool" />
+          <property data="1.0" name="friction_x" type="float" />
+          <property data="1.0" name="friction_y" type="float" />
+          <property data="1.0" name="friction_z" type="float" />
+          <property data="0.03999999910593033" name="damping_trans" type="float" />
+          <property data="0.10000000149011612" name="damping_rot" type="float" />
+          <property data="0.4000000059604645" name="inertia_tensor" type="float" />
+        </userData>
+      </entity>
+    </node>
+    <node name="rightwall" >
+      <position x="12.102674" y="18.627905" z="0.811592" />
+      <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="0.000000" />
+      <scale x="0.153318" y="33.136120" z="1.000000" />
+      <entity meshFile="rightwall.mesh" name="rightwall" >
+        <userData >
+          <property data="1.0" name="mass" type="float" />
+          <property data="1.0" name="mass_radius" type="float" />
+          <property data="STATIC" name="physics_type" type="str" />
+          <property data="False" name="actor" type="bool" />
+          <property data="False" name="ghost" type="bool" />
+          <property data="0.0" name="velocity_min" type="float" />
+          <property data="0.0" name="velocity_max" type="float" />
+          <property data="False" name="lock_trans_x" type="bool" />
+          <property data="False" name="lock_trans_y" type="bool" />
+          <property data="False" name="lock_trans_z" type="bool" />
+          <property data="False" name="lock_rot_x" type="bool" />
+          <property data="False" name="lock_rot_y" type="bool" />
+          <property data="False" name="lock_rot_z" type="bool" />
+          <property data="False" name="anisotropic_friction" type="bool" />
+          <property data="1.0" name="friction_x" type="float" />
+          <property data="1.0" name="friction_y" type="float" />
+          <property data="1.0" name="friction_z" type="float" />
+          <property data="0.03999999910593033" name="damping_trans" type="float" />
+          <property data="0.10000000149011612" name="damping_rot" type="float" />
+          <property data="0.4000000059604645" name="inertia_tensor" type="float" />
+        </userData>
+      </entity>
+    </node>
+    <node name="backwall" >
+      <position x="-0.217213" y="-13.802135" z="0.735927" />
+      <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="0.000000" />
+      <scale x="12.264323" y="0.157331" z="1.000000" />
+      <entity meshFile="backwall.mesh" name="backwall" >
+        <userData >
+          <property data="1.0" name="mass" type="float" />
+          <property data="1.0" name="mass_radius" type="float" />
+          <property data="STATIC" name="physics_type" type="str" />
+          <property data="False" name="actor" type="bool" />
+          <property data="False" name="ghost" type="bool" />
+          <property data="0.0" name="velocity_min" type="float" />
+          <property data="0.0" name="velocity_max" type="float" />
+          <property data="False" name="lock_trans_x" type="bool" />
+          <property data="False" name="lock_trans_y" type="bool" />
+          <property data="False" name="lock_trans_z" type="bool" />
+          <property data="False" name="lock_rot_x" type="bool" />
+          <property data="False" name="lock_rot_y" type="bool" />
+          <property data="False" name="lock_rot_z" type="bool" />
+          <property data="False" name="anisotropic_friction" type="bool" />
+          <property data="1.0" name="friction_x" type="float" />
+          <property data="1.0" name="friction_y" type="float" />
+          <property data="1.0" name="friction_z" type="float" />
+          <property data="0.03999999910593033" name="damping_trans" type="float" />
+          <property data="0.10000000149011612" name="damping_rot" type="float" />
+          <property data="0.4000000059604645" name="inertia_tensor" type="float" />
+        </userData>
+      </entity>
+    </node>
+    <node name="Suzanne4" >
+      <position x="5.802313" y="49.907963" z="1.232989" />
+      <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="0.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <userData >
+        <property data="../media/my_media/enemy.lua" name="script" type="str" />
+      </userData>
+      <entity meshFile="Suzanne.mesh" name="Suzanne4" >
+        <userData >
+          <property data="1.0" name="mass" type="float" />
+          <property data="1.0" name="mass_radius" type="float" />
+          <property data="STATIC" name="physics_type" type="str" />
+          <property data="False" name="actor" type="bool" />
+          <property data="False" name="ghost" type="bool" />
+          <property data="0.0" name="velocity_min" type="float" />
+          <property data="0.0" name="velocity_max" type="float" />
+          <property data="False" name="lock_trans_x" type="bool" />
+          <property data="False" name="lock_trans_y" type="bool" />
+          <property data="False" name="lock_trans_z" type="bool" />
+          <property data="False" name="lock_rot_x" type="bool" />
+          <property data="False" name="lock_rot_y" type="bool" />
+          <property data="False" name="lock_rot_z" type="bool" />
+          <property data="False" name="anisotropic_friction" type="bool" />
+          <property data="1.0" name="friction_x" type="float" />
+          <property data="1.0" name="friction_y" type="float" />
+          <property data="1.0" name="friction_z" type="float" />
+          <property data="0.03999999910593033" name="damping_trans" type="float" />
+          <property data="0.10000000149011612" name="damping_rot" type="float" />
+          <property data="0.4000000059604645" name="inertia_tensor" type="float" />
+        </userData>
+      </entity>
+    </node>
+    <node name="Suzanne3" >
+      <position x="1.698658" y="49.796700" z="1.102603" />
+      <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="0.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <userData >
+        <property data="../media/my_media/enemy.lua" name="script" type="str" />
+      </userData>
+      <entity meshFile="Suzanne.mesh" name="Suzanne3" >
+        <userData >
+          <property data="1.0" name="mass" type="float" />
+          <property data="1.0" name="mass_radius" type="float" />
+          <property data="STATIC" name="physics_type" type="str" />
+          <property data="False" name="actor" type="bool" />
+          <property data="False" name="ghost" type="bool" />
+          <property data="0.0" name="velocity_min" type="float" />
+          <property data="0.0" name="velocity_max" type="float" />
+          <property data="False" name="lock_trans_x" type="bool" />
+          <property data="False" name="lock_trans_y" type="bool" />
+          <property data="False" name="lock_trans_z" type="bool" />
+          <property data="False" name="lock_rot_x" type="bool" />
+          <property data="False" name="lock_rot_y" type="bool" />
+          <property data="False" name="lock_rot_z" type="bool" />
+          <property data="False" name="anisotropic_friction" type="bool" />
+          <property data="1.0" name="friction_x" type="float" />
+          <property data="1.0" name="friction_y" type="float" />
+          <property data="1.0" name="friction_z" type="float" />
+          <property data="0.03999999910593033" name="damping_trans" type="float" />
+          <property data="0.10000000149011612" name="damping_rot" type="float" />
+          <property data="0.4000000059604645" name="inertia_tensor" type="float" />
+        </userData>
+      </entity>
+    </node>
+    <node name="Suzanne2" >
+      <position x="-6.116533" y="49.265732" z="1.145616" />
+      <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="0.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <userData >
+        <property data="../media/my_media/enemy.lua" name="script" type="str" />
+      </userData>
+      <entity meshFile="Suzanne.mesh" name="Suzanne2" >
+        <userData >
+          <property data="1.0" name="mass" type="float" />
+          <property data="1.0" name="mass_radius" type="float" />
+          <property data="STATIC" name="physics_type" type="str" />
+          <property data="False" name="actor" type="bool" />
+          <property data="False" name="ghost" type="bool" />
+          <property data="0.0" name="velocity_min" type="float" />
+          <property data="0.0" name="velocity_max" type="float" />
+          <property data="False" name="lock_trans_x" type="bool" />
+          <property data="False" name="lock_trans_y" type="bool" />
+          <property data="False" name="lock_trans_z" type="bool" />
+          <property data="False" name="lock_rot_x" type="bool" />
+          <property data="False" name="lock_rot_y" type="bool" />
+          <property data="False" name="lock_rot_z" type="bool" />
+          <property data="False" name="anisotropic_friction" type="bool" />
+          <property data="1.0" name="friction_x" type="float" />
+          <property data="1.0" name="friction_y" type="float" />
+          <property data="1.0" name="friction_z" type="float" />
+          <property data="0.03999999910593033" name="damping_trans" type="float" />
+          <property data="0.10000000149011612" name="damping_rot" type="float" />
+          <property data="0.4000000059604645" name="inertia_tensor" type="float" />
+        </userData>
+      </entity>
+    </node>
+    <node name="Lamp" >
+      <position x="0.917912" y="45.388443" z="7.196548" />
+      <rotation qw="0.570947" qx="0.169076" qy="0.272171" qz="0.755880" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <light name="Lamp" powerScale="1.0" type="point" >
+        <colourDiffuse b="0.6738513112068176" g="0.6738513112068176" r="0.6738513112068176" />
+        <colourSpecular b="0.6738513112068176" g="0.6738513112068176" r="0.6738513112068176" />
+        <lightAttenuation constant="1.0" linear="0.03333335240683057" quadratic="0.0" range="5000" />
+      </light>
+    </node>
+    <node name="floor" >
+      <position x="-0.001318" y="18.935602" z="-0.012263" />
+      <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="0.000000" />
+      <scale x="11.958213" y="32.563015" z="0.096132" />
+      <entity meshFile="floor.mesh" name="floor" >
+        <userData >
+          <property data="1.0" name="mass" type="float" />
+          <property data="1.0" name="mass_radius" type="float" />
+          <property data="STATIC" name="physics_type" type="str" />
+          <property data="False" name="actor" type="bool" />
+          <property data="False" name="ghost" type="bool" />
+          <property data="0.0" name="velocity_min" type="float" />
+          <property data="0.0" name="velocity_max" type="float" />
+          <property data="False" name="lock_trans_x" type="bool" />
+          <property data="False" name="lock_trans_y" type="bool" />
+          <property data="False" name="lock_trans_z" type="bool" />
+          <property data="False" name="lock_rot_x" type="bool" />
+          <property data="False" name="lock_rot_y" type="bool" />
+          <property data="False" name="lock_rot_z" type="bool" />
+          <property data="False" name="anisotropic_friction" type="bool" />
+          <property data="1.0" name="friction_x" type="float" />
+          <property data="1.0" name="friction_y" type="float" />
+          <property data="1.0" name="friction_z" type="float" />
+          <property data="0.03999999910593033" name="damping_trans" type="float" />
+          <property data="0.10000000149011612" name="damping_rot" type="float" />
+          <property data="0.4000000059604645" name="inertia_tensor" type="float" />
+        </userData>
+      </entity>
+    </node>
+    <node name="Lamp2" >
+      <position x="0.709429" y="-9.724786" z="13.259579" />
+      <rotation qw="0.570947" qx="0.169076" qy="0.272171" qz="0.755880" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <light name="Lamp2" powerScale="1.0" type="point" >
+        <colourDiffuse b="0.6738513112068176" g="0.6738513112068176" r="0.6738513112068176" />
+        <colourSpecular b="0.6738513112068176" g="0.6738513112068176" r="0.6738513112068176" />
+        <lightAttenuation constant="1.0" linear="0.03333335240683057" quadratic="0.0" range="5000" />
+      </light>
+    </node>
+    <node name="Suzanne" >
+      <position x="-2.261848" y="49.406708" z="1.141059" />
+      <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="0.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <userData >
+        <property data="../media/my_media/enemy.lua" name="script" type="str" />
+      </userData>
+      <entity meshFile="Suzanne.mesh" name="Suzanne" >
+        <userData >
+          <property data="1.0" name="mass" type="float" />
+          <property data="1.0" name="mass_radius" type="float" />
+          <property data="STATIC" name="physics_type" type="str" />
+          <property data="False" name="actor" type="bool" />
+          <property data="False" name="ghost" type="bool" />
+          <property data="0.0" name="velocity_min" type="float" />
+          <property data="0.0" name="velocity_max" type="float" />
+          <property data="False" name="lock_trans_x" type="bool" />
+          <property data="False" name="lock_trans_y" type="bool" />
+          <property data="False" name="lock_trans_z" type="bool" />
+          <property data="False" name="lock_rot_x" type="bool" />
+          <property data="False" name="lock_rot_y" type="bool" />
+          <property data="False" name="lock_rot_z" type="bool" />
+          <property data="False" name="anisotropic_friction" type="bool" />
+          <property data="1.0" name="friction_x" type="float" />
+          <property data="1.0" name="friction_y" type="float" />
+          <property data="1.0" name="friction_z" type="float" />
+          <property data="0.03999999910593033" name="damping_trans" type="float" />
+          <property data="0.10000000149011612" name="damping_rot" type="float" />
+          <property data="0.4000000059604645" name="inertia_tensor" type="float" />
+        </userData>
+      </entity>
+    </node>
+    <node name="ObservatoryBase" >
+      <position x="-0.042667" y="-11.640358" z="1.104273" />
+      <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="0.000000" />
+      <scale x="1.705066" y="1.705066" z="0.432964" />
+      <userData >
+        <property data="../media/my_media/mover.lua" name="script" type="str" />
+      </userData>
+      <entity meshFile="ObservatoryBase.mesh" name="ObservatoryBase" >
+        <userData >
+          <property data="1.0" name="mass" type="float" />
+          <property data="1.0" name="mass_radius" type="float" />
+          <property data="STATIC" name="physics_type" type="str" />
+          <property data="False" name="actor" type="bool" />
+          <property data="False" name="ghost" type="bool" />
+          <property data="0.0" name="velocity_min" type="float" />
+          <property data="0.0" name="velocity_max" type="float" />
+          <property data="False" name="lock_trans_x" type="bool" />
+          <property data="False" name="lock_trans_y" type="bool" />
+          <property data="False" name="lock_trans_z" type="bool" />
+          <property data="False" name="lock_rot_x" type="bool" />
+          <property data="False" name="lock_rot_y" type="bool" />
+          <property data="False" name="lock_rot_z" type="bool" />
+          <property data="False" name="anisotropic_friction" type="bool" />
+          <property data="1.0" name="friction_x" type="float" />
+          <property data="1.0" name="friction_y" type="float" />
+          <property data="1.0" name="friction_z" type="float" />
+          <property data="0.03999999910593033" name="damping_trans" type="float" />
+          <property data="0.10000000149011612" name="damping_rot" type="float" />
+          <property data="0.4000000059604645" name="inertia_tensor" type="float" />
+        </userData>
+      </entity>
+      <node name="Camera" >
+        <position x="0.004167" y="-8.923290" z="69.953964" />
+        <rotation qw="0.928150" qx="0.372157" qy="-0.005876" qz="0.001338" />
+        <scale x="0.586593" y="1.811371" z="1.548323" />
+        <camera fov="0.5033799435163735" name="Camera" projectionType="perspective" >
+          <clipping far="100.0" near="0.10000000149011612" />
+        </camera>
+      </node>
+      <node name="ObservatoryDome" >
+        <position x="0.037526" y="-0.014820" z="1.079330" />
+        <rotation qw="0.889286" qx="0.000000" qy="0.000000" qz="-0.457351" />
+        <scale x="0.801491" y="0.801491" z="3.156371" />
+        <entity meshFile="ObservatoryDome.mesh" name="ObservatoryDome" >
+          <userData >
+            <property data="1.0" name="mass" type="float" />
+            <property data="1.0" name="mass_radius" type="float" />
+            <property data="STATIC" name="physics_type" type="str" />
+            <property data="False" name="actor" type="bool" />
+            <property data="False" name="ghost" type="bool" />
+            <property data="0.0" name="velocity_min" type="float" />
+            <property data="0.0" name="velocity_max" type="float" />
+            <property data="False" name="lock_trans_x" type="bool" />
+            <property data="False" name="lock_trans_y" type="bool" />
+            <property data="False" name="lock_trans_z" type="bool" />
+            <property data="False" name="lock_rot_x" type="bool" />
+            <property data="False" name="lock_rot_y" type="bool" />
+            <property data="False" name="lock_rot_z" type="bool" />
+            <property data="False" name="anisotropic_friction" type="bool" />
+            <property data="1.0" name="friction_x" type="float" />
+            <property data="1.0" name="friction_y" type="float" />
+            <property data="1.0" name="friction_z" type="float" />
+            <property data="0.03999999910593033" name="damping_trans" type="float" />
+            <property data="0.10000000149011612" name="damping_rot" type="float" />
+            <property data="0.4000000059604645" name="inertia_tensor" type="float" />
+          </userData>
+        </entity>
+        <node name="Telescope" >
+          <position x="-0.597917" y="0.393787" z="0.469411" />
+          <rotation qw="0.728461" qx="-0.519847" qy="-0.259195" qz="0.363209" />
+          <scale x="0.178786" y="0.178786" z="0.386739" />
+          <entity meshFile="Telescope.mesh" name="Telescope" >
+            <userData >
+              <property data="1.0" name="mass" type="float" />
+              <property data="1.0" name="mass_radius" type="float" />
+              <property data="STATIC" name="physics_type" type="str" />
+              <property data="False" name="actor" type="bool" />
+              <property data="False" name="ghost" type="bool" />
+              <property data="0.0" name="velocity_min" type="float" />
+              <property data="0.0" name="velocity_max" type="float" />
+              <property data="False" name="lock_trans_x" type="bool" />
+              <property data="False" name="lock_trans_y" type="bool" />
+              <property data="False" name="lock_trans_z" type="bool" />
+              <property data="False" name="lock_rot_x" type="bool" />
+              <property data="False" name="lock_rot_y" type="bool" />
+              <property data="False" name="lock_rot_z" type="bool" />
+              <property data="False" name="anisotropic_friction" type="bool" />
+              <property data="1.0" name="friction_x" type="float" />
+              <property data="1.0" name="friction_y" type="float" />
+              <property data="1.0" name="friction_z" type="float" />
+              <property data="0.03999999910593033" name="damping_trans" type="float" />
+              <property data="0.10000000149011612" name="damping_rot" type="float" />
+              <property data="0.4000000059604645" name="inertia_tensor" type="float" />
+            </userData>
+          </entity>
+        </node>
+      </node>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="Monkey" />
+    </item>
+    <item type="material" >
+      <file name="Planetarium" />
+    </item>
+  </externals>
+  <environment >
+    <colourAmbient b="0.0" g="0.0" r="0.0" />
+    <colourBackground b="0.05087608844041824" g="0.05087608844041824" r="0.05087608844041824" />
+  </environment>
+</scene>

@@ -1,0 +1,87 @@
+#include "colors.inc"
+
+camera {
+  location <0,0,0>
+  angle 90
+  right <1,0,0> up <0,1,0>
+  // turn the cam based on the current frame=clock : [0-5]
+  #switch (clock)
+    #range (0,3)
+      // first 4 frames : turn from left to right
+      rotate (90*clock)*y
+    #break
+    #case (4)
+      // look at the sky
+      rotate -90*x
+    #break
+    #case (5)
+      // look at the ground
+      rotate 90*x
+    #break
+  #end // End of conditional part
+}
+
+background { color rgb <0,0,0> }
+
+// light_source { <100, 100, -200> color White }
+/*
+/usr/share/povray-3.5/include/stars.inc
+
+  sky_sphere {
+    pigment {
+        granite
+        color_map {
+            [ 0.000  0.270 color rgb < 0, 0, 0> color rgb < 0, 0, 0> ]
+            [ 0.270  0.280 color rgb <.5,.5,.4> color rgb <.8,.8,.4> ]
+            [ 0.280  0.470 color rgb < 0, 0, 0> color rgb < 0, 0, 0> ]
+            [ 0.470  0.480 color rgb <.4,.4,.5> color rgb <.4,.4,.8> ]
+            [ 0.480  0.680 color rgb < 0, 0, 0> color rgb < 0, 0, 0> ]
+            [ 0.680  0.690 color rgb <.5,.4,.4> color rgb <.8,.4,.4> ]
+            [ 0.690  0.880 color rgb < 0, 0, 0> color rgb < 0, 0, 0> ]
+            [ 0.880  0.890 color rgb <.5,.5,.5> color rgb < 1, 1, 1> ]
+            [ 0.890  1.000 color rgb < 0, 0, 0> color rgb < 0, 0, 0> ]
+        }
+    turbulence 1
+    sine_wave
+    scale .5
+    }
+    
+  }
+  */
+  
+sphere { < 0, 0, 0>, 2
+    pigment { rgbt 1 } // surface of sphere is transparent
+    interior {
+        media {
+            emission 0.02
+            intervals 1
+            samples 25
+            method 3
+            density {
+                spherical
+                ramp_wave
+        translate 1.0*y  // replace 1.0 = t   by time for animation
+        warp { turbulence 2.5 }
+        translate -1.0*y // replace -1.0 = -t  by time for animation
+                color_map {
+                    [0.0 color rgb <0, 0, 0> * 0.5]
+                    [0.1 color rgb <0, 1, 0> * 0.5]
+                    [0.5 color rgb <1, 1, 0> * 0.5]
+                    [1.0 color rgb <1, 0, 0> * 0.5]
+                }
+            }
+            density {
+                spherical
+                ramp_wave
+                color_map {
+                    [0.0 color rgb 1]
+                    [0.2 color rgb 1]
+                    [0.3 color rgb 0]
+                    [1.0 color rgb 0]
+                }
+            }
+        }
+    }
+    scale 25
+    hollow
+}

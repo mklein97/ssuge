@@ -1,0 +1,296 @@
+Calling OgreBites::ApplicationContext::setup
+Creating the scene manager
+Registering scene manager with the RTShader System
+Calling createScene
+successfully loaded '../media/init.lua'
+successfully loaded '../media/my_media/enemy.lua'
+successfully loaded '../media/my_media/enemy.lua'
+successfully loaded '../media/my_media/enemy.lua'
+successfully loaded '../media/my_media/enemy.lua'
+successfully loaded '../media/my_media/mover.lua'
+got to Enemy.onStart!
+my name is Suzanne4 and group is invaderScene
+got to Enemy.onStart!
+my name is Suzanne3 and group is invaderScene
+got to Enemy.onStart!
+my name is Suzanne2 and group is invaderScene
+got to Enemy.onStart!
+my name is Suzanne and group is invaderScene
+got to Mover.onStart!
+my name is ObservatoryBase and group is invaderScene
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet0 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet1 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet2 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet3 and group is Bullets
+successfully loaded '..\media\my_media\enemy.lua'
+SCRIPT-ERROR: ../media/my_media/mover.lua:50: attempt to index a nil value (global 'elist')
+stack traceback:
+	../media/my_media/mover.lua:50: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+got to Enemy.onStart!
+my name is enemy1 and group is Enemies
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet4 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet5 and group is Bullets
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet6 and group is Bullets
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet7 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet8 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet9 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet10 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet11 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet12 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet13 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet14 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet15 and group is Bullets
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet16 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet17 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet18 and group is Bullets
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet19 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet20 and group is Bullets
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet21 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet22 and group is Bullets
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet23 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet24 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet25 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet26 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet27 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet28 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet29 and group is Bullets
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet30 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet31 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet32 and group is Bullets
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet33 and group is Bullets
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet34 and group is Bullets
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet35 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet36 and group is Bullets
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet37 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+successfully loaded '..\media\my_media\Bullet.lua'
+got to Bullet.onStart!
+my name is bullet38 and group is Bullets
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'
+SCRIPT-ERROR: ../media/my_media/mover.lua:36: attempt to index a nil value (field '?')
+stack traceback:
+	../media/my_media/mover.lua:36: in function <../media/my_media/mover.lua:18>
+encountered a run-time error in '_allGameObjects[invaderScene][ObservatoryBase].onUpdate'

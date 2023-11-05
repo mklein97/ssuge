@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- exporter: blender2ogre 0.7.0 -->
+<!-- export_time: Sat, 02 Feb 2019 21:42:03 +0000 -->
+<!-- previous_export_time: Sat, 02 Feb 2019 21:40:33 +0000 -->
+<scene author="mattk" formatVersion="1.1" >
+  <nodes >
+    <node name="Lamp" >
+      <position x="4.076245" y="1.005454" z="5.903862" />
+      <rotation qw="0.570947" qx="0.169076" qy="0.272171" qz="0.755880" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <light name="Lamp" powerScale="1.0" type="point" >
+        <colourDiffuse b="1.0" g="1.0" r="1.0" />
+        <colourSpecular b="1.0" g="1.0" r="1.0" />
+        <lightAttenuation constant="1.0" linear="0.03333335240683057" quadratic="0.0" range="5000" />
+      </light>
+    </node>
+    <node name="Camera" >
+      <position x="7.481132" y="-6.507640" z="5.343665" />
+      <rotation qw="0.781600" qx="0.481707" qy="0.212922" qz="0.334251" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <camera fov="0.5033799435163735" name="Camera" projectionType="perspective" >
+        <clipping far="100.0" near="0.10000000149011612" />
+      </camera>
+    </node>
+  </nodes>
+  <externals />
+  <environment >
+    <colourAmbient b="0.0" g="0.0" r="0.0" />
+    <colourBackground b="0.05087608844041824" g="0.05087608844041824" r="0.05087608844041824" />
+  </environment>
+</scene>
